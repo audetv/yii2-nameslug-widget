@@ -18,7 +18,7 @@ class NameSlugWidget extends InputWidget
     public $pluginOptions = [];
     public $slugId;
 
-    public $options = ['class' => 'inp-style1'];
+    public $options = ['class' => 'form-group'];
 
     private $slugAttribute = 'slug';
 
