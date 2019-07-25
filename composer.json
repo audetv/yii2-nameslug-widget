@@ -1,0 +1,42 @@
+{
+  "name": "audetv/yii2-nameslug-widget",
+  "description": "Name Slug Widget for Yii2 Framework.",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "yii 2",
+    "nameslug",
+    "slug"
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Aleksei Gusev",
+      "email": "audetv@gmail.com",
+      "homepage": "https://audetv.ru"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "yiisoft/yii2": "~2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "audetv\\nameslug\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "audetv\\nameslug\\tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}
