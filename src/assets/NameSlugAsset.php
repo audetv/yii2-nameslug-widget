@@ -14,8 +14,7 @@ use yii\web\YiiAsset;
 
 class NameSlugAsset extends AssetBundle
 {
-    public $basePath = '@webroot';
-    public $baseUrl = '@web';
+    public $sourcePath = '@vendor/audetv/yii2-nameslug-widget/src/assets';
     public $js = [
         'js/nameToSlug.js'
     ];
