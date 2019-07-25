@@ -1,8 +1,7 @@
+[![Latest Stable Version](https://poser.pugx.org/audetv/yii2-nameslug-widget/v/stable)](https://packagist.org/packages/audetv/yii2-nameslug-widget) [![Latest Unstable Version](https://poser.pugx.org/audetv/yii2-nameslug-widget/v/unstable)](https://packagist.org/packages/audetv/yii2-nameslug-widget) [![License](https://poser.pugx.org/audetv/yii2-nameslug-widget/license)](https://packagist.org/packages/audetv/yii2-nameslug-widget) [![composer.lock](https://poser.pugx.org/audetv/yii2-nameslug-widget/composerlock)](https://packagist.org/packages/audetv/yii2-nameslug-widget)
 ## Installation
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
-
-> Note: Read this [web tip /wiki](http://webtips.krajee.com/setting-composer-minimum-stability-application/) on setting the `minimum-stability` settings for your application's composer.json.
 
 Either run
 

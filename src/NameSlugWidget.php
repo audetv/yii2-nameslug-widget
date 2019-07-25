@@ -52,7 +52,7 @@ class NameSlugWidget extends InputWidget
         return <<<JS
 $(function(){
     $('#{$this->pluginOptions['name-field']}').keyup(function(){
-        transliteration('{$this->pluginOptions['name-field']}','{$this->pluginOptions['slug-field']}');
+        process('{$this->pluginOptions['name-field']}','{$this->pluginOptions['slug-field']}');
         return false;
     });
 });
