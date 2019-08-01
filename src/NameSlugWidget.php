@@ -51,10 +51,14 @@ class NameSlugWidget extends InputWidget
     {
         return <<<JS
 $(function(){
-    $('#{$this->pluginOptions['name-field']}').keyup(function(){
-        process('{$this->pluginOptions['name-field']}','{$this->pluginOptions['slug-field']}');
-        return false;
-    });
+    var slug = $('#{$this->pluginOptions['slug-field']}'),
+        name = $('#{$this->pluginOptions['name-field']}');
+    if (slug.attr('disabled') !== 'disabled'){
+        name.keyup(function(){
+            process('{$this->pluginOptions['name-field']}','{$this->pluginOptions['slug-field']}');
+            return false;
+        }); 
+    }
 });
 JS;
     }
